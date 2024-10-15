@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        nav {
+            background-color: #2c3e50;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #34495e;
+            transition: background-color 0.3s ease;
+        }
+        .hero {
+            background-color: #1abc9c;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .container {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+        .feature {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 30%;
+        }
+        .feature h3 {
+            color: #1abc9c;
+        }
+        .team {
+            text-align: center;
+        }
+        .team h2 {
+            margin-bottom: 30px;
+        }
+        .team-member {
+            display: inline-block;
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            width: 220px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .team-member h4 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .social-links a {
+            margin: 0 5px;
+            text-decoration: none;
+            color: #2c3e50;
+        }
+        .social-links a:hover {
+            color: #1abc9c;
+        }
+        .faq {
+            margin-top: 50px;
+        }
+        .faq h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-question {
+            cursor: pointer;
+            background-color: #1abc9c;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        .faq-answer {
+            display: none;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            max-width: 600px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #1abc9c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #16a085;
+        }
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Courses</a>
+        <a href="/about">About</a>
+        <a href="/register">Sign Up</a>
+        <a href="/signin">Sign In</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>About Our Platform</h1>
+        <p>We are committed to providing the best learning experience for our users. Our platform offers cutting-edge courses, hands-on experience, and personalized learning paths to help you succeed.</p>
+    </div>
+
+    <!-- Features Section -->
+    <div class="container">
+        <h2 style="text-align:center; color:#333; margin-bottom: 40px;">Why Choose Us</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Expert Instructors</h3>
+                <p>Learn from industry leaders and certified instructors who are passionate about teaching.</p>
+            </div>
+            <div class="feature">
+                <h3>Flexible Learning</h3>
+                <p>Access courses on your own schedule, from anywhere, on any device.</p>
+            </div>
+            <div class="feature">
+                <h3>Community Support</h3>
+                <p>Join a community of learners and get support through forums, peer interactions, and mentors.</p>
+            </div>
+        </div>
+
+        <!-- Team Section -->
+        <div class="team">
+            <h2>Meet Our Team</h2>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Team Member">
+                <h4>John Doe</h4>
+                <p>CEO & Founder</p>
+                <div class="social-links">
+                    <a href="#">LinkedIn</a> | <a href="#">Twitter</a> | <a href="#">GitHub</a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Team Member">
+                <h4>Jane Smith</h4>
+                <p>Head of Courses</p>
+                <div class="social-links">
+                    <a href="#">LinkedIn</a> | <a href="#">Twitter</a> | <a href="#">GitHub</a>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/100" alt="Team Member">
+                <h4>Mike Johnson</h4>
+                <p>Lead Developer</p>
+                <div class="social-links">
+                    <a href="#">LinkedIn</a> | <a href="#">Twitter</a> | <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question">What is your refund policy?</div>
+                <div class="faq-answer">We offer a full refund within the first 30 days of purchase.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How do I access my courses?</div>
+                <div class="faq-answer">You can access your courses anytime from your dashboard.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Are the courses self-paced?</div>
+                <div class="faq-answer">Yes, all our courses are self-paced and can be completed on your schedule.</div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2024 Your Learning Platform. All rights reserved.</p>
+    </div>
+
+    <!-- FAQ Toggle Script -->
+    <script>
+        document.querySelectorAll('.faq-question').forEach(item => {
+            item.addEventListener('click', () => {
+                const answer = item.nextElementSibling;
+                answer.style.display = answer.style.display === 'none' || answer.style.display === '' ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
