@@ -7,7 +7,7 @@ app.secret_key = 'supersecretkey'
 
 # Database Configuration
 # MySQL connection using PyMySQL
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:cdac@localhost/aws_deployment'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:helloworld@flaskdb.cjases6oa3zu.us-east-1.rds.amazonaws.com/aws_deployment'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Initialize the database
